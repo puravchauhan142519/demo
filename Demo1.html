@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple HTML & CSS Demo</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:linear-gradient(to right,#4facfe,#00f2fe);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+    }
+
+    .card{
+        background:#fff;
+        width:350px;
+        padding:30px;
+        border-radius:15px;
+        text-align:center;
+        box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .card h1{
+        color:#333;
+        margin-bottom:15px;
+    }
+
+    .card p{
+        color:#666;
+        margin-bottom:20px;
+        line-height:1.6;
+    }
+
+    .btn{
+        display:inline-block;
+        padding:12px 25px;
+        background:#007BFF;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+        transition:0.3s;
+    }
+
+    .btn:hover{
+        background:#0056b3;
+        transform:scale(1.05);
+    }
+</style>
+
+</head>
+<body>
+
+<div class="card">
+    <h1>Welcome!</h1>
+    <p>
+        This is a simple HTML and CSS demo page.
+        Everything is written in a single HTML file.
+    </p>
+
+    <a href="#" class="btn">Click Me</a>
+</div>
+
+</body>
+</html>
